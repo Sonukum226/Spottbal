@@ -1,0 +1,117 @@
+/* Header CSS START */
+.App {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+.iconDetails {
+  margin-left: 2%;
+  float: left;
+  height: 40px;
+  width: 40px;
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+.text-left {
+  margin-left: 60px;
+}
+
+h4 {
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+.App-link {
+  width: auto;
+  height: 100vh;
+  background-color: #d5f4fb;
+}
+
+/* HEADER CSS END */
+
+/* UserList */
+
+.App-User {
+  float: left;
+  margin-top: 10px;
+  margin-left: 3%;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.List-bar {
+  margin-left: 3%;
+}
+
+.search {
+  width: 75%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(153, 150, 145);
+}
+
+.btn-cls {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin: 0px -1px;
+  padding: 10px 20px 8px 20px;
+  text-decoration: none;
+  background-color: rgb(47, 47, 174);
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.User-List {
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 90%;
+  height: 180px;
+  border: 1px solid rgb(154, 153, 152);
+}
+/* datares */
+.dataResult {
+  margin-top: 5px;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  box-shadow: rgba(9, 9, 9, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.dataItem:hover {
+  background-color: lightgrey;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
