@@ -45,6 +45,7 @@ h4 {
   height: 50%;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
 }
 
 .List-bar {
@@ -52,7 +53,7 @@ h4 {
 }
 
 .search {
-  width: 75%;
+  width: 65%;
   padding: 5px;
   border-radius: 5px;
   border: 2px solid rgb(153, 150, 145);
@@ -66,15 +67,16 @@ h4 {
   padding: 10px 20px 8px 20px;
   text-decoration: none;
   background-color: rgb(47, 47, 174);
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 5px 5px 5px 5px;
   border: none;
   cursor: pointer;
 }
 
 .User-List {
   margin-top: 10px;
+  display: flex;
   border: 1px solid black;
-  width: 90%;
+  width: auto;
   height: 180px;
   border: 1px solid rgb(154, 153, 152);
 }
@@ -105,13 +107,50 @@ h4 {
   background-color: lightgrey;
 }
 
-.dataItem p {
-  margin-left: 10px;
-}
-a {
-  text-decoration: none;
+/* User Card */
+
+.users-list {
+  background: #fff;
+  margin-left: 20px;
+  margin-right: 50px;
+  flex-grow: 0.2;
+  height: 25vh;
+  box-sizing: border-box;
+  margin-top: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow-y: scroll;
+
+  position: absolute;
 }
 
-#clearBtn {
-  cursor: pointer;
+.users-list::-webkit-scrollbar {
+  display: none;
+}
+
+.users-item {
+  color: rgb(0, 0, 0);
+  width: 300px;
+  margin: 10px;
+  height: 30px;
+
+  background-color: #fefefe;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid rgb(141, 132, 132);
+}
+
+.users-item:hover {
+  background-color: lightgrey;
+}
+
+.users-name {
+  padding: 0 10px;
+  margin-top: 5px;
+  position: relative;
+}
+
+span {
+  right: 10px;
+  position: absolute;
 }
